@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "back-end demo app for Apollo's lift-off II course",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon src/index"
   },
   "dependencies": {
+    "apollo-datasource-rest": "^3.7.0",
     "apollo-server": "^3.0.0",
     "graphql": "^15.5.1"
   },
